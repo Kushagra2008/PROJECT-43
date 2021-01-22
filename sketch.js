@@ -61,5 +61,9 @@ function draw() {
     sound.play();
     soundSec = second();
   };
+  
+  if (hr == 12 && sc == 0 && mn == 0) {
+    alert("THE PATH IS OPEN NOW!");
+  };
 
 };
