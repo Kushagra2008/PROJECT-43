@@ -43,7 +43,7 @@ function draw() {
   push();
   stroke(0, 255, 0);
   strokeWeight(7);
-  arc(0, 0, 350, 350, 270, mnAngle);
+  arc(0, 0, 370, 370, 270, mnAngle);
   rotate(mnAngle);
   line(0, 0, 80, 0);
   pop();
@@ -52,7 +52,7 @@ function draw() {
   push();
   stroke(0, 0, 255);
   strokeWeight(7);
-  arc(0, 0, 300, 300, 270, hrAngle);
+  arc(0, 0, 340, 340, 270, hrAngle);
   rotate(hrAngle);
   line(0, 0, 60, 0);
   pop();
